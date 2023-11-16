@@ -19,7 +19,7 @@ console.log(NaN || !"true");
 // and "kids menu" if the age is less than 10
 
 let age=12;
-(age>10)
+(age>=10)
 ? console.log("full menu")
 : console.log("kids menu");
 
